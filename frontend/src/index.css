@@ -1,1 +1,29 @@
 /* TODO Add site wide styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* form styling */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
+button {
+  background-color: #004e89;
+  color: #e7ecef;
+  border-radius: 20px;
+  padding: 10px;
+}
